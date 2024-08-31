@@ -1,7 +1,7 @@
 **[Predictive Modeling for Heart Disease: An Evaluation of Decision
-Tree, XGBoost, and Random Forest Classifiers]{.underline}**
+Tree, XGBoost, and Random Forest Classifiers]**
 
-**[Project Overview]{.underline}**
+**[Project Overview]**
 
 This project involves analyzing and predicting heart disease using a
 dataset of various patient features. The aim is to build and evaluate
@@ -10,7 +10,7 @@ heart disease (target = 1) or not (target = 0). The dataset includes 303
 entries with 14 features, such as age, blood pressure, cholesterol
 levels, and exerciseinduced angina.
 
-**[Key Metrics]{.underline}**
+**[Key Metrics]**
 
 Accuracy: The proportion of correctly predicted classifications out of
 all predictions made.
@@ -22,7 +22,7 @@ false positives, and false negatives.
 Classification Report: Provides precision, recall, and F1score for each
 class, giving a detailed breakdown of the model\'s performance.
 
-**[Dataset]{.underline}**
+**[Dataset]**
 
 [Link for dataset](https://www.kaggle.com/datasets/arezaei81/heartcsv)
 
@@ -58,7 +58,7 @@ columns, including:
 -   target: Presence or absence of heart disease (1 = presence, 0 =
     absence)
 
-**[Methodology]{.underline}**
+**[Methodology]**
 
 1\. Data Cleaning and Preprocessing:
 
@@ -97,28 +97,28 @@ model performance.
 Performed hyperparameter tuning for the Random Forest Classifier using
 RandomizedSearchCV to find the best model parameters.
 
-**[Results]{.underline}**
+**[Results]**
 
-[Decision Tree Classifier:]{.underline}
+[Decision Tree Classifier:]
 
 Accuracy: 83.61%
 
-![](./image1.png){width="6.268055555555556in"
-height="2.779861111111111in"}
+![image1](https://github.com/user-attachments/assets/bedbc616-f979-4856-8fc0-476cecfd9e28)
 
-[XGBoost Classifier:]{.underline}
 
-Accuracy: 85.25%
-
-![](./image2.png){width="6.268055555555556in"
-height="3.2979166666666666in"}
-
-[Random Forest Classifier (with Hyperparameter Tuning):]{.underline}
+[XGBoost Classifier:]
 
 Accuracy: 85.25%
 
-![](./image3.png){width="5.948746719160105in"
-height="2.527435476815398in"}
+![image2](https://github.com/user-attachments/assets/aca01085-f629-4d77-ba0c-d4289702de8b)
+
+
+[Random Forest Classifier (with Hyperparameter Tuning):]
+
+Accuracy: 85.25%
+
+![image3](https://github.com/user-attachments/assets/09597af6-c778-484e-b0c9-ca06e1603451)
+
 
 The Random Forest and XGBoost classifiers achieved the highest accuracy
 of 85.25%, showing better performance compared to the Decision Tree
