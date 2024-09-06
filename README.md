@@ -1,16 +1,16 @@
-**[Predictive Modeling for Heart Disease: An Evaluation of Decision
-Tree, XGBoost, and Random Forest Classifiers]**
+**Predictive Modeling for Heart Disease: An Evaluation of Decision
+Tree, XGBoost, and Random Forest Classifiers**
 
-**[Project Overview]**
+**Project Overview**
 
 This project involves analyzing and predicting heart disease using a
 dataset of various patient features. The aim is to build and evaluate
 several machine learning models to classify patients as either having
 heart disease (target = 1) or not (target = 0). The dataset includes 303
 entries with 14 features, such as age, blood pressure, cholesterol
-levels, and exerciseinduced angina.
+levels, and exercise induced angina.
 
-**[Key Metrics]**
+**Key Metrics**
 
 Accuracy: The proportion of correctly predicted classifications out of
 all predictions made.
@@ -22,7 +22,7 @@ false positives, and false negatives.
 Classification Report: Provides precision, recall, and F1score for each
 class, giving a detailed breakdown of the model\'s performance.
 
-**[Dataset]**
+**Dataset**
 
 [Link for dataset](https://www.kaggle.com/datasets/arezaei81/heartcsv)
 
@@ -58,7 +58,7 @@ columns, including:
 -   target: Presence or absence of heart disease (1 = presence, 0 =
     absence)
 
-**[Methodology]**
+**Methodology**
 
 1\. Data Cleaning and Preprocessing:
 
@@ -97,7 +97,7 @@ model performance.
 Performed hyperparameter tuning for the Random Forest Classifier using
 RandomizedSearchCV to find the best model parameters.
 
-**[Results]**
+**Results**
 
 [Decision Tree Classifier:]
 
